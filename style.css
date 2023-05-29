@@ -1,0 +1,135 @@
+*{
+    background: wheat;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    background: white;
+    height: 400px;
+    border: none;
+    width: 680px;
+    height: 430px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 430px;
+    background: white;
+    background-image: url("imagenes/investigador.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 30px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar {
+    background-color: #7bb1f3;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 67px;
+    margin-top: 510px;
+    position: absolute;
+    width: 386px;
+}
+
+.informacion {
+    background: ;
+    color: #495057;
+    font-size:18px;
+}
+
+footer{
+    padding: 10px;
+    justify-content: center; 
+}
+
+footer a{
+    color:   #0A3871;
+    margin: 10px;
+  }
+  
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.linkendin{
+    width: 50px;
+    border-radius: 8rem;
+    margin-right: 30px;
+}
+
+.github{
+    width: 40px;
+    border-radius: 8rem;
+    margin-left: 30px;
+}
+
+.copyright{
+    color:#423d3d;
+    font-size: 23px;
+    margin:20px;
+}

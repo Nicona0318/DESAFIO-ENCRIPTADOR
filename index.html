@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+            <img class="logo" src="imagenes/Frame 6.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto a encriptar aqui"></textarea>
+            <div class="informacion">
+                <h6 >✻ Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/carlos-quevedo-75a875253/">
+                <img src="imagenes/linkendin.png" class="linkendin">
+            </a>
+            
+            <p class="copyright">&copy Copyright Encriptador Carlos Quevedo - 2023</p>
+            
+            <a href="https://github.com/Nicona0318">
+                <img src="imagenes/github.png" class="github">
+            </a>
+        </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
